@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-img {
+        background:linear-gradient(to right, #282A37 35%, transparent), url("./assets/main.jpg") right no-repeat;
+        background-size: contain;
+      }
+  }
